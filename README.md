@@ -18,7 +18,7 @@ This repository only contains example test datasets for visualizing the results 
 5. Run 'visualize.py' to visualize a test dataset, movies of the reconstructions saves to the results file
 
 The T1NET was trained on a Quadro RTX 6000 GPU (~24 GB) on a Linux Fedora 26 operatoring system. Trainiing the network for 100 epochs requires ~18 hours.
-=======
+
 
 
 
