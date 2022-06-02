@@ -20,6 +20,8 @@ This repository only contains example test datasets for visualizing the results 
 The T1NET was trained on a Quadro RTX 6000 GPU (~24 GB) on a Linux Fedora 26 operatoring system. Trainiing the network for 100 epochs requires ~18 hours.
 
 
+![Figure2](https://user-images.githubusercontent.com/35586452/171718146-750d010a-04c4-46aa-9f31-cc96f1e2fbaf.png)
+
 
 
 |           |        BU2          |        MoDL         |     CRNN-MRI        |        BU3          |    BU3 (ungated)    |
@@ -29,7 +31,7 @@ The T1NET was trained on a Quadro RTX 6000 GPU (~24 GB) on a Linux Fedora 26 ope
 |   NRMSE   |   0.375 ± 0.069     |   0.468 ± 0.075     |   0.149 ± 0.052     |   0.147 ± 0.033     |   0.181 ± 0.037     |
 |   TIME (s)|         7           |         98          |        110          |         8           |         12          |
 
-Performance comparisons for T1 map generation using the reduced model, a muti-layer perceptrion (MLP), U-Net, the T1NET, nd reference T1 maps. Numbers correspond to averages for AHA regions of interest in the myocardium (MYO) nd the left-ventricular blood pool (LVB) with their corresponding stndard deviations, Mean ± SD. P-values indicate the statistical significance of network and reduced three-parameter model T1 maps in comparison to the reference T1 maps with p < 0.05.
+Performance comparisons for T1 map generation using the reduced model, a muti-layer perceptrion (MLP), U-Net, the T1NET, and reference T1 maps. Numbers correspond to averages for AHA regions of interest in the myocardium (MYO) nd the left-ventricular blood pool (LVB) with their corresponding stndard deviations, Mean ± SD. P-values indicate the statistical significance of network and reduced three-parameter model T1 maps in comparison to the reference T1 maps with p < 0.05.
 
 Contact: 
 
