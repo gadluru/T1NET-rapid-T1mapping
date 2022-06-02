@@ -17,19 +17,8 @@ This repository only contains example test datasets for visualizing the results 
 4. Run 'train_network.py in the precontrast or postcontrast directories to train the respective networks, traind networks save to the trainedNetwork directory
 5. Run 'visualize.py' to visualize a test dataset, movies of the reconstructions saves to the results file
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 The T1NET was trained on a Quadro RTX 6000 GPU (~24 GB) on a Linux Fedora 26 operatoring system. Trainiing the network for 100 epochs requires ~18 hours.
 =======
-The T1NET was trained on a Quadro RTX 6000 GPU (~24 GB) on a Linux Fedora 26 operatoring system. Training the network for 100 epochs requires ~18 hours.
->>>>>>> 3c76f6d132d261b870c8644a7534c113da35c6dd
-=======
-The T1NET was trained on a Quadro RTX 6000 GPU (~24 GB) on a Linux Fedora 26 operatoring system. Training the network for 100 epochs requires ~18 hours.
->>>>>>> 3c76f6d132d261b870c8644a7534c113da35c6dd
-
-
-
-https://user-images.githubusercontent.com/35586452/129275208-073007a2-6466-48d0-b807-616cae605c15.mp4
 
 
 
