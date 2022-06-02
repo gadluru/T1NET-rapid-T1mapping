@@ -19,20 +19,25 @@ This repository only contains example test datasets for visualizing the results 
 
 The T1NET was trained on a Quadro RTX 6000 GPU (~24 GB) on a Linux Fedora 26 operatoring system. Trainiing the network for 100 epochs requires ~18 hours.
 
+<br />
+<br />
+<br />
 
 ![Figure2](https://user-images.githubusercontent.com/35586452/171719902-e8a9514c-d09e-460f-bc8a-90c2a818094a.png)
-Myocardial pre-contrast T1 mapping results of T1NET and the reduced model fitting (T=3). (A) Correlation and Bland-Altman plots of the T1NET. Each dot corresponds to the average of a myocardial AHA segment.  (B) Correlation and Bland-Altman plots of the reduced model fitting. (C) Network-generated pre-contrast short-axis cardiac T1 maps in comparison to reference T1 maps and their corresponding difference images. (D) Reduced model-generated pre-contrast short-axis cardiac T1 maps in comparison to reference T1 maps and their corresponding difference images. 
-
+Figure 1. Myocardial pre-contrast T1 mapping results of T1NET and the reduced model fitting (T=3). (A) Correlation and Bland-Altman plots of the T1NET. Each dot corresponds to the average of a myocardial AHA segment.  (B) Correlation and Bland-Altman plots of the reduced model fitting. (C) Network-generated pre-contrast short-axis cardiac T1 maps in comparison to reference T1 maps and their corresponding difference images. (D) Reduced model-generated pre-contrast short-axis cardiac T1 maps in comparison to reference T1 maps and their corresponding difference images. 
 
 <br />
 <br />
 <br />
-
 
 <p align="center">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/35586452/171719414-1a78c454-0d18-4be7-a28d-a96b89574776.png">
 </p>
 Table 1. Performance comparisons for T1 map generation using the reduced model, a multi-layer perceptron (MLP), U-Net, the T1NET, and reference T1 maps. Numbers correspond to averages for AHA regions of interest in the myocardium (MYO) and regions of interest in the left ventricular blood pool (LVBP) with their corresponding standard deviations, mean±SD. P-values indicate the statistical significance of network and reduced three-parameter model T1 maps in comparison to the reference T1 maps with p<0.05.
+
+<br />
+<br />
+<br />
 
 Contact: 
 
