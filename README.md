@@ -25,9 +25,10 @@ Myocardial pre-contrast T1 mapping results of T1NET and the reduced model fittin
 
 
 
-
+<p align="center">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/35586452/171719414-1a78c454-0d18-4be7-a28d-a96b89574776.png">
-
+</p>
+  
 Table 1. Performance comparisons for T1 map generation using the reduced model, a multi-layer perceptron (MLP), U-Net, the T1NET, and reference T1 maps. Numbers correspond to averages for AHA regions of interest in the myocardium (MYO) and regions of interest in the left ventricular blood pool (LVBP) with their corresponding standard deviations, mean±SD. P-values indicate the statistical significance of network and reduced three-parameter model T1 maps in comparison to the reference T1 maps with p<0.05.
 
 Contact: 
