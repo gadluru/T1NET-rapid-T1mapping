@@ -1,6 +1,4 @@
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
-
 from T1NET import *
 from datetime import datetime
 
