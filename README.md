@@ -22,6 +22,8 @@ The T1NET was trained on a Quadro RTX 6000 GPU (~24 GB) on a Linux Fedora 26 ope
 
 ![Figure2](https://user-images.githubusercontent.com/35586452/171718146-750d010a-04c4-46aa-9f31-cc96f1e2fbaf.png)
 
+Myocardial pre-contrast T1 mapping results of T1NET and the reduced model fitting (T=3). (A) Correlation and Bland-Altman plots of the T1NET. Each dot corresponds to the average of a myocardial AHA segment.  (B) Correlation and Bland-Altman plots of the reduced model fitting. (C) Network-generated pre-contrast short-axis cardiac T1 maps in comparison to reference T1 maps and their corresponding difference images. (D) Reduced model-generated pre-contrast short-axis cardiac T1 maps in comparison to reference T1 maps and their corresponding difference images. 
+
 
 
 |           |        BU2          |        MoDL         |     CRNN-MRI        |        BU3          |    BU3 (ungated)    |
