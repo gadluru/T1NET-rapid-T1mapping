@@ -1,6 +1,6 @@
 # Accelerated cardiac T1 mapping with recurrent networks and cyclic, model-based loss
 
-This repository contains code and example test datasets for the paper 'Accelerated cardic T1 mapping with recurrent networks and cyclic, model-based loss'
+This repository contains code and example test datasets for the paper 'Accelerated cardiac T1 mapping with recurrent networks and cyclic, model-based loss'
 
 Instructions:
 Running this code requires the installation of Conda and Pip for creating virtual environments and installing packages. Instructions for installing conda and pip can be found in the following link:
@@ -9,15 +9,15 @@ https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
 https://pip.pypa.io/en/stable/installation/
 
-This repository only contains example test datasets for visualizing the results of T1NET paper. Additionl  datasets can be provided upon request.
+This repository only contains example test datasets for visualizing the results of the T1NET paper. Additional  datasets can be provided upon request.
 
 1. Create a virtual environment using the command 'conda create -n myenv python=3.6.7'
 2. Activate the virtual environment using the command 'source activate myenv'
 3. Run 'pip install -r requirements.txt'
-4. Run 'train_network.py in the precontrast or postcontrast directories to train the respective networks, traind networks save to the trainedNetwork directory
+4. Run 'train_network.py in the precontrast or postcontrast directories to train the respective networks, trained networks save to the trainedNetwork directory
 5. Run 'visualize.py' to visualize a test dataset, movies of the reconstructions saves to the results file
 
-The T1NET was trained on a Quadro RTX 6000 GPU (~24 GB) on a Linux Fedora 26 operatoring system. Trainiing the network for 100 epochs requires ~18 hours.
+The T1NET was trained on a Quadro RTX 6000 GPU (~24 GB) on a Linux Fedora 26 operating system. Training the network for 100 epochs requires ~18 hours.
 
 <br />
 <br />
