@@ -1,4 +1,4 @@
-# Deep-learning-reconstruction-Radial-SMS-perfusion 
+# Accelerated cardiac T1 mapping with recurrent networks and cyclic, model-based loss
 
 This repository contains code and example test datasets for the paper 'Accelerated cardic T1 mapping with recurrent networks and cyclic, model-based loss'
 
